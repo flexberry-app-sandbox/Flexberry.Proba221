@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proba22-организация-e",
+  "editForm": "i-i-s-proba22-организация-e",
+  "external": false,
+  "caption": "Организация",
+  "name": "IISProba22ОрганизацияL",
+  "className": "ОрганизацияL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proba22-организация",
+      "modelProjection": "ОрганизацияL"
+    }
+  ]
+}

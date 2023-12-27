@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "ВакантДолжн",
+      "projection": "ВакантДолжнL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Организация",
+      "projection": "ОрганизацияL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Регист анкеты",
+  "name": "IISProba22РегистАнкетыE",
+  "className": "РегистАнкетыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proba22-регист-анкеты",
+      "modelProjection": "РегистАнкетыE"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Организация",
+      "projection": "ОрганизацияL",
+      "detailModelName": null
+    },
+    {
+      "master": "сотруд",
+      "displayAttributeName": null,
+      "required": true,
+      "relationName": "ТЧРегРезульт.Сотруд",
+      "projection": "СотрудL",
+      "detailModelName": "i-i-s-proba22-т-ч-рег-результ"
+    }
+  ],
+  "external": false,
+  "caption": "Рег результ",
+  "name": "IISProba22РегРезультE",
+  "className": "РегРезультE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proba22-рег-результ",
+      "modelProjection": "РегРезультE"
+    }
+  ]
+}

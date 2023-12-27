@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Сотруд",
+  "name": "IISProba22СотрудE",
+  "className": "СотрудE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proba22-сотруд",
+      "modelProjection": "СотрудE"
+    }
+  ]
+}

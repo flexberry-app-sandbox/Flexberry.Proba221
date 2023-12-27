@@ -1,0 +1,63 @@
+﻿{
+  "name": "IISProba22ТЧСотруд",
+  "modelName": "i-i-s-proba22-т-ч-сотруд",
+  "className": "ТЧСотруд",
+  "nameSpace": "IIS.Proba22",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "должнСотр",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "фИОСотр",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотруд",
+      "relatedTo": "i-i-s-proba22-сотруд",
+      "inverse": "тЧСотруд"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТЧСотрудE",
+      "modelName": "i-i-s-proba22-т-ч-сотруд",
+      "attrs": [
+        {
+          "name": "фИОСотр",
+          "caption": "Ф и о сотр",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "должнСотр",
+          "caption": "Должн сотр",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

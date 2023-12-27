@@ -1,0 +1,1 @@
+docker-compose -p proba22-java down

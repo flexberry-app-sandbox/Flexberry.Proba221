@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISProba22ДолжнСотр",
+  "modelName": "i-i-s-proba22-должн-сотр",
+  "className": "ДолжнСотр",
+  "nameSpace": "IIS.Proba22",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "должность",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "фИОСотр",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ДолжнСотрE",
+      "modelName": "i-i-s-proba22-должн-сотр",
+      "attrs": [
+        {
+          "name": "должность",
+          "caption": "Должность",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "фИОСотр",
+          "caption": "Ф и о сотр",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ДолжнСотрL",
+      "modelName": "i-i-s-proba22-должн-сотр",
+      "attrs": [
+        {
+          "name": "должность",
+          "caption": "Должность",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "фИОСотр",
+          "caption": "Ф и о сотр",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
